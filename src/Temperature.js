@@ -43,4 +43,5 @@ export default function Temperature(props) {
         </div>
       </div>
     </div>
-  )
+  );
+}
