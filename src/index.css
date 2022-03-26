@@ -1,13 +1,168 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.app {
+  background-image: url("/images/1271802034-vector copy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+h1 {
+  font-family: "M PLUS Rounded 1C", san s-serif;
+}
+h2,
+.temp,
+.float,
+.col,
+.stats,
+.description,
+.temp-section {
+  font-family: "Source Sans Pro", sans-serif;
+}
+h1 {
+  line-height: 40px;
+  font-size: 35px;
+  text-align: left;
+  color: aliceblue;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+h2 {
+  color: #e9e6d7;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+input {
+  margin: 0 auto;
+  text-align: center;
+}
+form {
+  padding: 10px;
+  margin: 0 auto;
+}
+ul {
+  list-style-type: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wrapper {
+  max-height: 100%;
+  min-width: 95%;
+  display: inline-block;
+  overflow: auto;
+}
+.temps {
+  font-size: 45px;
+}
+.temp-section {
+  font-size: 50px;
+  color: aliceblue;
+  text-align: left;
+  margin-top: 5px;
+  padding: 20px 5px;
+  line-height: 30px;
+}
+.temp-section .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+.temp-section .active .hover {
+  text-decoration: none;
+}
+.section {
+  max-width: 900px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border: 3px solid rgba(119, 114, 134, 0.897);
+  box-shadow: 0 2px 8px lightslategray;
+  border-style: solid;
+  border-radius: 10px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: rgba(119, 114, 134, 0.897);
+  background-size: cover;
+}
+.conds ul {
+  display: block;
+  float: right;
+  position: relative;
+  margin-right: 50px;
+  margin-bottom: 300px;
+  bottom: 350px;
+}
+.conds .stats {
+  color: aliceblue;
+  list-style-type: none;
+  font-size: 24px;
+  text-align: left;
+  border: 2px solid rgba(119, 114, 134, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgb(7, 9, 10);
+  padding: 30px;
+}
+
+.search-form {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 3px 10px;
+}
+.temp-value {
+  font-size: 120px;
+}
+.float-left {
+  float: left;
+  display: block;
+}
+.units a {
+  text-decoration: none;
+  color: black;
+}
+.units p {
+  position: relative;
+  top: -29px;
+  left: 20px;
+}
+.units {
+  position: relative;
+  top: -55px;
+  left: 50px;
+  font-size: 15px;
+}
+.cels {
+  position: relative;
+  top: -88px;
+  left: 28px;
+}
+.detail {
+  font-size: 30px;
+  float: right;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: aliceblue;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.6;
+}
+.weather-forecast-temperatures-min {
+  opacity: 0.5;
+}
+.weather-forecast-temperatures-max {
+  font-size: 13px;
+}
+
+.footer p {
+  text-align: left;
+  color: aliceblue;
 }
